@@ -2,7 +2,7 @@ version: '2'
 
 services:
   app:
-    image: 'java-docker:latest'
+    image: 'ste5an/java-docker:latest'
     build:
       context: .
     ports:
